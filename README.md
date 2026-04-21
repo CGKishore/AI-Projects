@@ -30,13 +30,13 @@ AI-Projects/
     └── README.md
     
 #### ⚙️ How It Works
--- User uploads a PDF
--- Document is split into smaller chunks
--- Chunks are converted into embeddings
--- Stored in FAISS vector database
--- User asks a question
--- Relevant chunks are retrieved
--- Gemini LLM generates answer using context
+- User uploads a PDF
+- Document is split into smaller chunks
+- Chunks are converted into embeddings
+- Stored in FAISS vector database
+- User asks a question
+- Relevant chunks are retrieved
+- Gemini LLM generates answer using context
 
 #### 🔧 Installation & Setup
 1. Clone the repository
