@@ -20,14 +20,15 @@ PyPDFLoader
 
 #### 🏗️ Project Structure
 AI-Projects/
-│
-└── RAG_chatbot/
-    ├── app.py               # Streamlit UI
-    ├── ingest.py            # PDF loading & chunking
-    ├── rag_chain.py         # RAG pipeline (LangChain)
-    ├── requirements.txt
-    ├── .gitignore
-    └── README.md
+
+-- RAG_chatbot/
+
+    -- app.py               # Streamlit UI
+    -- ingest.py            # PDF loading & chunking
+    -- rag_chain.py         # RAG pipeline (LangChain)
+    -- requirements.txt
+    -- .gitignore
+    -- README.md
     
 #### ⚙️ How It Works
 - User uploads a PDF
@@ -54,22 +55,23 @@ GOOGLE_API_KEY=your_api_key_here
 
 4. Run the application
 streamlit run app.py
-💡 Example Use Cases
-Chat with resumes
-Analyze research papers
-Query PDFs like reports or notes
-Build document-based Q&A systems
-🔒 Security Note
-API keys are stored in .env file
-.env is excluded using .gitignore
-Never expose API keys publicly
-📈 Future Improvements
-Support multiple documents
-Add document upload history
-Improve UI/UX
-Deploy on cloud (Streamlit Cloud / Render)
-Add source citation in answers
-👨‍💻 Author
+
+#### 💡 Example Use Cases
+- Chat with resumes
+- Analyze research papers
+- Query PDFs like reports or notes
+- Build document-based Q&A systems
+#### 🔒 Security Note
+- API keys are stored in .env file
+- .env is excluded using .gitignore
+- Never expose API keys publicly
+#### 📈 Future Improvements
+- Support multiple documents
+- Add document upload history
+- Improve UI/UX
+- Deploy on cloud (Streamlit Cloud / Render)
+- Add source citation in answers
+#### 👨‍💻 Author
 
 Kishore
 MCA Student | AI & Data Science Enthusiast
