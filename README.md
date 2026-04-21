@@ -1,22 +1,24 @@
-📄 RAG Resume Chatbot (Streamlit + LangChain + Gemini)
+## 📄 RAG Resume Chatbot (Streamlit + LangChain + Gemini)
 
 An AI-powered chatbot that allows users to upload a PDF document (like a resume) and ask questions about its content using a Retrieval-Augmented Generation (RAG) pipeline.
 
-🚀 Features
+#### 🚀 Features
 📂 Upload PDF documents
 ✂️ Automatic text chunking
 🔎 Semantic search using FAISS vector database
 🤖 Context-aware responses using Gemini LLM
 💬 Chat interface with memory (conversation history)
 ⚡ Fast and interactive UI with Streamlit
-🧠 Tech Stack
+
+### 🧠 Tech Stack
 Python
 Streamlit
 LangChain
 Google Gemini (Generative AI)
 FAISS (Vector Database)
 PyPDFLoader
-🏗️ Project Structure
+
+#### 🏗️ Project Structure
 AI-Projects/
 │
 └── RAG_chatbot/
@@ -26,15 +28,17 @@ AI-Projects/
     ├── requirements.txt
     ├── .gitignore
     └── README.md
-⚙️ How It Works
-User uploads a PDF
-Document is split into smaller chunks
-Chunks are converted into embeddings
-Stored in FAISS vector database
-User asks a question
-Relevant chunks are retrieved
-Gemini LLM generates answer using context
-🔧 Installation & Setup
+    
+#### ⚙️ How It Works
+-- User uploads a PDF
+-- Document is split into smaller chunks
+-- Chunks are converted into embeddings
+-- Stored in FAISS vector database
+-- User asks a question
+-- Relevant chunks are retrieved
+-- Gemini LLM generates answer using context
+
+#### 🔧 Installation & Setup
 1. Clone the repository
 git clone https://github.com/CGKishore/AI-Projects.git
 cd AI-Projects/RAG_chatbot
