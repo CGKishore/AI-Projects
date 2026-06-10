@@ -21,3 +21,7 @@ def process_uploaded_file(uploaded_file):
     chunks = splitter.split_documents(documents)
 
     return chunks
+
+
+
+print("Hello World")
