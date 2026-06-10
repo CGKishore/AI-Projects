@@ -52,3 +52,7 @@ if "chain" in st.session_state:
         ])
 
         st.session_state.messages.append({"role": "assistant", "content": answer})
+
+
+
+print ("hello world")
